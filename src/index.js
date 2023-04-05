@@ -1,6 +1,6 @@
 import "./style.css";
 
-function header() {
+function displayHeader() {
     const header = document.createElement('div');
     header.classList.add('header');
 
@@ -28,18 +28,17 @@ function header() {
     return header;
 }
 
-function initialPage() {
-    const element = document.createElement('div');
-    element.setAttribute('id', 'content');
+function displayHomePage() {
+    const homePage = document.createElement('div');
+    homePage.setAttribute('id', 'content');
 
-/*     const icon = new Image();
-    icon.src = Sushi;
+    const about = document.createElement('div');
+    about.textContent = "Sushi 101 has been serving the best sushi in Las Vegas since 2004! We fly our fish in fresh everyday to ensure only the highest quality items are served in our restaurant. Browse our menu to see nigiri and sashimi options, along with sushi rolls and more to satitate your appetite!";
+    homePage.appendChild(about);
 
-    element.appendChild(icon); */
-
-    return element;
+    return homePage;
 }
 
-document.body.appendChild(header());
-document.body.appendChild(initialPage());
+document.body.appendChild(displayHeader());
+document.body.appendChild(displayHomePage());
 
