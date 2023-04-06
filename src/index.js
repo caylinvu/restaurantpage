@@ -34,5 +34,3 @@ contactBtn.addEventListener('click', () => {
 // TO DO
 
 // MAKE RESPONSIVE
-
-// FIX FOOTER ISSUE

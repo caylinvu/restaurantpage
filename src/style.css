@@ -72,10 +72,10 @@ button {
     margin: 60px auto 105px;
     padding: 70px 100px;
     color: white;
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    text-align: center;
 }
 
 .content-header {
@@ -86,7 +86,7 @@ button {
 }
 
 .content-text {
-    padding: 10px 60px 0;
+    padding: 10px 100px 0;
     white-space: pre-wrap;
 }
 

@@ -3,6 +3,7 @@ import Chef from './images/homeimg.jpg';
 export default function displayHomePage() {
     const homePage = document.createElement('div');
     homePage.setAttribute('id', 'content');
+    homePage.classList.add('home-page');
 
     const homeImg = new Image();
     homeImg.src = Chef;
