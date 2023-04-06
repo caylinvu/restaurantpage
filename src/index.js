@@ -33,4 +33,6 @@ contactBtn.addEventListener('click', () => {
 
 // TO DO
 
-// MAKE RESPONSIVE
+// MAYBE ADD TITLES TO PAGES
+
+// ADD LINE UNDERNEATH CURRENT PAGE
