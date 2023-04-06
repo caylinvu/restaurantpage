@@ -12,14 +12,17 @@ export default function displayHeader() {
     header.appendChild(btnContainer);
 
     const homeBtn = document.createElement('button');
+    homeBtn.classList.add('home-btn');
     homeBtn.textContent = 'Home';
     btnContainer.appendChild(homeBtn);
 
     const menuBtn = document.createElement('button');
+    menuBtn.classList.add('menu-btn');
     menuBtn.textContent = 'Menu';
     btnContainer.appendChild(menuBtn);
 
     const contactBtn = document.createElement('button');
+    contactBtn.classList.add('contact-btn');
     contactBtn.textContent = 'Contact';
     btnContainer.appendChild(contactBtn);
 
