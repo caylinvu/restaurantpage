@@ -39,7 +39,7 @@ export default function displayMenuPage() {
 
     const basicRollsContainer = document.createElement('div');
     basicRollsContainer.classList.add('content-text');
-    basicRollsContainer.textContent = 'California $7.95 - Crab mix, cucumber, and avocado\nSpicy Crab $8.95 - Spicy crab mix and cucumber\nSpicy California $8.95 - Spicy crab mix, cucumber, and avocado\nAlaska $8.95 - Salmon, crab stick, and avocado\nTunacado $8.95 - Tuna, crab stick, and avocado\nPhilly $8.95 - Smoked salmon, cream cheese, and avocado\nEel $8.95 - Fresh water eel and avocado\nYellowtail $8.95 - Yellowtail, crab stick, avocado, and scallions';
+    basicRollsContainer.textContent = 'California $7.95 - Crab mix, cucumber, and avocado\n\nSpicy Crab $8.95 - Spicy crab mix and cucumber\n\nSpicy California $8.95 - Spicy crab mix, cucumber, and avocado\n\nAlaska $8.95 - Salmon, crab stick, and avocado\n\nTunacado $8.95 - Tuna, crab stick, and avocado\n\nPhilly $8.95 - Smoked salmon, cream cheese, and avocado\n\nEel $8.95 - Fresh water eel and avocado\n\nYellowtail $8.95 - Yellowtail, crab stick, avocado, and scallions';
     basicRolls.appendChild(basicRollsContainer);
 
     const specialtyRolls = document.createElement('div');

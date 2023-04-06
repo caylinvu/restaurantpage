@@ -5,10 +5,13 @@ export default function displayHomePage() {
     homePage.setAttribute('id', 'content');
     homePage.classList.add('home-page');
 
+    const imgContainer = document.createElement('div');
+    homePage.appendChild(imgContainer);
+
     const homeImg = new Image();
     homeImg.src = Chef;
     homeImg.classList.add('home-img');
-    homePage.appendChild(homeImg);
+    imgContainer.appendChild(homeImg);
 
     const about = document.createElement('div');
     homePage.appendChild(about);
