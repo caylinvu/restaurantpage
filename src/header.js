@@ -17,8 +17,6 @@ export default function displayHeader() {
     homeBtn.textContent = 'Home';
     btnContainer.appendChild(homeBtn);
 
-    console.log(homeBtn.classList);
-
     const menuBtn = document.createElement('button');
     menuBtn.classList.add('menu-btn');
     menuBtn.textContent = 'Menu';

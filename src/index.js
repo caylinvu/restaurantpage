@@ -42,10 +42,3 @@ contactBtn.addEventListener('click', () => {
     document.body.removeChild(document.body.childNodes[2]);
     document.body.insertBefore(displayContactPage(), document.body.children[1]);
 });
-
-
-// TO DO
-
-// MAYBE ADD TITLES TO PAGES
-
-// ADD LINE UNDERNEATH CURRENT PAGE
