@@ -14,15 +14,7 @@ body {
     margin: 0;
     font-size: 22px;
     font-family: 'Noto Sans JP', sans-serif;
-/*     position: relative;
-    min-height: 100vh; */
-
 }
-
-/* 
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Poppins', sans-serif;
- */
 
 button {
     font-size: inherit;
@@ -55,13 +47,17 @@ button {
     border: none;
     color: white;
     background-color: rgb(0, 0, 0, 0);
-    padding: 10px 20px;
+    padding: 10px 20px 15px;
 }
 
 .btn-container button:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transition: .2s;
+}
+
+button.selected-btn {
+    border-bottom: 2px solid white;
 }
 
 /* ---------------CONTENT--------------- */
@@ -93,9 +89,6 @@ button {
 
 .home-img {
     width: min(600px, 100%);
-/*     display: block;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
 /* ---------------FOOTER--------------- */

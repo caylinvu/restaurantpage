@@ -13,8 +13,11 @@ export default function displayHeader() {
 
     const homeBtn = document.createElement('button');
     homeBtn.classList.add('home-btn');
+    homeBtn.classList.add('selected-btn');
     homeBtn.textContent = 'Home';
     btnContainer.appendChild(homeBtn);
+
+    console.log(homeBtn.classList);
 
     const menuBtn = document.createElement('button');
     menuBtn.classList.add('menu-btn');
